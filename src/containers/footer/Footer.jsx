@@ -1,5 +1,6 @@
 import React from "react";
 import gpt3Logo from "../../assets/logo.svg";
+import year from "../date";
 import "./footer.css";
 
 const Footer = () => (
@@ -43,7 +44,10 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2023 GPT-3. All rights reserved. <a href="https://github.com/JustGetAClass/GPT3">/Github/</a></p>
+      <p>
+        @{year} GPT-3. All rights reserved.{" "}
+        <a href="https://github.com/JustGetAClass/GPT3">/Github/</a>
+      </p>
     </div>
   </div>
 );
